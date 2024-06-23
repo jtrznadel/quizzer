@@ -1,15 +1,17 @@
+// Concrete command for generating a quiz
 import 'package:quizzer/data/command/command.dart';
-import 'package:quizzer/data/question/question_manager.dart';
+import 'package:quizzer/data/question/question_factory.dart';
+import 'package:quizzer/data/question/quiz_manager.dart';
 
 class GenerateQuizCommand implements Command {
   final QuizManager quizManager;
-  final int numberOfQuestions;
+  final QuestionFactory questionFactory;
 
-  GenerateQuizCommand(
-      {required this.quizManager, required this.numberOfQuestions});
+  GenerateQuizCommand(this.quizManager, this.questionFactory);
 
   @override
   void execute() {
-    quizManager.generateQuiz(numberOfQuestions: numberOfQuestions);
+    quizManager.generateQuiz(questionFactory);
+    print('Quiz generated.');
   }
 }

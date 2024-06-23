@@ -1,6 +1,6 @@
 import 'package:quizzer/data/command/command.dart';
 
-class Invoker {
+class CommandInvoker {
   Command? command;
 
   void setCommand(Command command) {

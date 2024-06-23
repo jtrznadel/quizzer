@@ -1,4 +1,4 @@
-import 'package:quizzer/data/question_type.dart';
+import 'package:quizzer/data/question/question_type.dart';
 
 class Question {
   const Question({
