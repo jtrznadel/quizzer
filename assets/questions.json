@@ -1,0 +1,123 @@
+[
+    {
+      "questionText": "What is 2 + 2?",
+      "options": ["3", "4", "5", "6"],
+      "correctAnswerIndex": 1,
+      "category": "Math"
+    },
+    {
+      "questionText": "What is the square root of 16?",
+      "options": ["2", "4", "6", "8"],
+      "correctAnswerIndex": 1,
+      "category": "Math"
+    },
+    {
+      "questionText": "What is the speed of light?",
+      "options": ["299,792,458 m/s", "150,000,000 m/s", "3,000,000 m/s", "30,000 m/s"],
+      "correctAnswerIndex": 0,
+      "category": "Physics"
+    },
+    {
+      "questionText": "Who proposed the theory of relativity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "correctAnswerIndex": 1,
+      "category": "Physics"
+    },
+    {
+      "questionText": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "correctAnswerIndex": 2,
+      "category": "Geography"
+    },
+    {
+      "questionText": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Japan", "Thailand", "India"],
+      "correctAnswerIndex": 1,
+      "category": "Geography"
+    },
+    {
+      "questionText": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+      "correctAnswerIndex": 1,
+      "category": "History"
+    },
+    {
+      "questionText": "In which year did World War II end?",
+      "options": ["1942", "1945", "1948", "1950"],
+      "correctAnswerIndex": 1,
+      "category": "History"
+    },
+    {
+      "questionText": "Which country has won the most FIFA World Cup titles?",
+      "options": ["Germany", "Argentina", "Brazil", "Italy"],
+      "correctAnswerIndex": 2,
+      "category": "Sport"
+    },
+    {
+      "questionText": "In which sport would you perform a slam dunk?",
+      "options": ["Basketball", "Tennis", "Soccer", "Baseball"],
+      "correctAnswerIndex": 0,
+      "category": "Sport"
+    },
+    {
+      "questionText": "Who is known as the King of Pop?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+      "correctAnswerIndex": 1,
+      "category": "Music"
+    },
+    {
+      "questionText": "Which band released the album 'Abbey Road'?",
+      "options": ["The Beatles", "The Rolling Stones", "The Who", "Pink Floyd"],
+      "correctAnswerIndex": 0,
+      "category": "Music"
+    },
+    {
+      "questionText": "What is 7 x 8?",
+      "options": ["54", "56", "64", "72"],
+      "correctAnswerIndex": 1,
+      "category": "Math"
+    },
+    {
+      "questionText": "What is the derivative of x^2?",
+      "options": ["x", "2x", "x^2", "2x^2"],
+      "correctAnswerIndex": 1,
+      "category": "Math"
+    },
+    {
+      "questionText": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Pb", "Pt"],
+      "correctAnswerIndex": 0,
+      "category": "Physics"
+    },
+    {
+      "questionText": "Who discovered penicillin?",
+      "options": ["Marie Curie", "Albert Einstein", "Alexander Fleming", "Isaac Newton"],
+      "correctAnswerIndex": 2,
+      "category": "Physics"
+    },
+    {
+      "questionText": "Which is the largest continent?",
+      "options": ["Africa", "Asia", "Europe", "North America"],
+      "correctAnswerIndex": 1,
+      "category": "Geography"
+    },
+    {
+      "questionText": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "correctAnswerIndex": 3,
+      "category": "Geography"
+    },
+    {
+      "questionText": "Who was the first man to walk on the moon?",
+      "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+      "correctAnswerIndex": 1,
+      "category": "History"
+    },
+    {
+      "questionText": "In which year did the Titanic sink?",
+      "options": ["1910", "1912", "1914", "1916"],
+      "correctAnswerIndex": 1,
+      "category": "History"
+    }
+  ]
+  

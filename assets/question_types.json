@@ -1,0 +1,33 @@
+[
+    {
+      "category": "Math",
+      "color": "0xFF0000FF",
+      "icon": "Icons.calculate"
+    },
+    {
+      "category": "Physics",
+      "color": "0xFFFF0000",
+      "icon": "Icons.rocket_launch_outlined"
+    },
+    {
+      "category": "Geography",
+      "color": "0xFF00FF00",
+      "icon": "Icons.public"
+    },
+    {
+      "category": "History",
+      "color": "0xFFFFFF00",
+      "icon": "Icons.menu_book"
+    },
+    {
+      "category": "Sport",
+      "color": "0xFFFF00FF",
+      "icon": "Icons.sports_volleyball_outlined"
+    },
+    {
+      "category": "Music",
+      "color": "0xFF00FFFF",
+      "icon": "Icons.music_note"
+    }
+  ]
+  

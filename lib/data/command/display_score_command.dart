@@ -8,6 +8,7 @@ class DisplayScoreCommand implements Command {
 
   @override
   void execute() {
+    quizManager.getScore();
     print('Current score: ${quizManager.getScore()}');
   }
 }
