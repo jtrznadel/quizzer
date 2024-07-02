@@ -5,13 +5,13 @@ import 'package:quizzer/data/question/quiz_manager.dart';
 
 class GenerateQuizCommand implements Command {
   final QuizManager quizManager;
-  final QuestionFactory questionFactory;
+  final int questionsCount;
 
-  GenerateQuizCommand(this.quizManager, this.questionFactory);
+  GenerateQuizCommand(this.quizManager, this.questionsCount);
 
   @override
   void execute() {
-    quizManager.generateQuiz(questionFactory);
+    quizManager.generateQuiz(questionsCount);
     print('Quiz generated.');
   }
 }

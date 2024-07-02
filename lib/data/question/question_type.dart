@@ -1,7 +1,5 @@
 import 'dart:ui';
 
-import 'package:quizzer/data/question/question.dart';
-
 class QuestionType {
   const QuestionType(
       {required String category, required Color color, required String icon})

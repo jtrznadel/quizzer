@@ -18,8 +18,4 @@ class QuestionFactory {
 
     return _questionTypes[key]!;
   }
-
-  int getQuestionTypeCount() {
-    return _questionTypes.length;
-  }
 }

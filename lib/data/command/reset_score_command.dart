@@ -9,6 +9,7 @@ class ResetScoreCommand implements Command {
   @override
   void execute() {
     quizManager.resetScore();
-    print('Score reset.');
+    quizManager.clearQuestions();
+    print('Quzi and score reseted.');
   }
 }
