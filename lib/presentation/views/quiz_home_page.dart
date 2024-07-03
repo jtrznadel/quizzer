@@ -29,7 +29,6 @@ class _QuizHomePageState extends State<QuizHomePage> {
     commandInvoker.setCommand(generateQuizCommand);
     commandInvoker.executeCommand();
 
-    // Poczekaj na zakończenie generowania quizu i odśwież stan
     await Future.delayed(const Duration(milliseconds: 500), () {
       setState(() {
         _currentQuestionIndex = 0;
@@ -87,7 +86,7 @@ class _QuizHomePageState extends State<QuizHomePage> {
       appBar: AppBar(
         title: const Text('Quiz App'),
         actions: [
-          if (!_quizCompleted) // Dodaj ten warunek, aby przycisk odświeżania był widoczny tylko podczas trwania quizu
+          if (!_quizCompleted)
             IconButton(
               icon: const Icon(Icons.refresh),
               onPressed: _resetQuiz,
